@@ -9,25 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <header class="container">
+   <header id="home" class="container">
        <nav class="fram">
         <div class="logo">
             <h1>LOGO</h1>
         </div>
         <div class="nav">
-            <div class="nav-link">
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">PROJECT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#project">PROJECT</a></li>
                 </ul>
             </div>
             <div class="login-btn">
-                <a href=""><button class="btn">LOGIN</button></a>
+                <a href="#login"><button class="btn">LOGIN</button></a>
             </div>
+            <i class="fa fa-bars " onclick="showMenu()"></i>
         </div>
        </nav>
        <div class="header">
@@ -52,10 +55,10 @@
 
    <!-- ABOUT PAGE -->
 
-   <section class="about-sec">
+   <section id="about" class="about-sec">
         <div class="container">
             <div class="about">
-                <h1>ABOUT ME</h1>
+                <h1>ABOUT US</h1>
             </div>
             <div class="about-img">
                 <img src="images/pic-1.jpg" alt="">
@@ -74,7 +77,7 @@
    <!-- blog page -->
 
 
-   <section class="blog-sec">
+   <section id="blog" class="blog-sec">
        <div class="container">
             <div class="blog">
                 <h1>BLOG</h1>
@@ -133,7 +136,7 @@
 
    <!-- Projects section -->
 
-   <section class="project-sec">
+   <section id="project" class="project-sec">
         <div class="container">
             <div class="project">
                 <h1>PROJECTS</h1>
@@ -176,7 +179,7 @@
 
    <!-- login page -->
 
-   <section class="login-sec">
+   <section id="login" class="login-sec">
         <div class="container">
             <div class="login">
                 <h1>LOGIN</h1>
@@ -222,6 +225,19 @@
              </div>       
        </div>
    </section>
+
+
+   <!-- java script  -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
   
 </body>
 </html>
