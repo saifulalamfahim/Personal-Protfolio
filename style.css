@@ -244,3 +244,60 @@
     margin-right: 10px;
     margin-top: 10px;
  }
+
+
+
+ /* ------project-sec------ */
+ .project-sec{
+    background:#E5E5E5;
+ }
+ .project-sec .container .project h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    padding-top: 45px;
+ }
+
+ .container .img-box{
+    position: relative;
+    height: 994px;
+    background: url(images/pic.jpg), #C4C4C4;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+ }
+ .project-sec .container .img-box .img-box-1{
+    display: flex;
+    align-items: center;
+    width: 1078px;
+    height: 418px;
+    padding: 130px 0px 45px 140px;
+    margin-bottom: 60px;
+ }
+ .project-sec .container .img-box .img-box-1 h2{
+    width: 306px;
+    height: 65px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .project-sec .container .img-box .img-box-1 .img-flex{
+    display: flex;
+    width: 666px;
+    height: 418px;
+    margin-left: 100px;
+ }
+ .project-sec .container .img-box .img-box-1 .img-flex img{
+    width: 316px;
+    height: 194px;
+    box-shadow: 3px 3px 25px 5px #230C0C;
+    /* padding: 30px 30px 30px 30px; */
+    margin:  10px 10px 10px 10px;
+ }
+
