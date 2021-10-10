@@ -301,3 +301,97 @@
     margin:  10px 10px 10px 10px;
  }
 
+
+
+ /* ------login section------ */
+.login-sec{
+    background:#E5E5E5;
+}
+.login-sec .container{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 45px;
+}
+.login-sec .container .login h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+ .login-sec .container .login-page{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .login-sec .container .login-page .detail img{
+    width: 228px;
+    height: 211px;
+    margin-left: 120px;
+ }
+ .login-sec .container .login-page .detail h1{
+     margin-left: 90px;
+ }
+ .login-sec .container .login-page .detail p{
+    margin-left: 50px;
+}
+ .login-sec .container .login-page .form{
+    width: 436px;
+    height: 457px;
+    background: #3261BD;
+    border-radius: 24px;
+    color: white;
+    padding: 35px;
+ }
+ .login-sec .container .login-page .form .form-dt{
+    margin-top: 10px;
+ }
+ .login-sec .container .login-page .form .form-dt p{
+     margin-left: 20px;
+     margin-bottom: 5px;
+ }
+ .login-sec .container .login-page .form .form-dt input{
+    width: 367px;
+    height: 51px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+ }
+ .login-sec .container .login-page .form .form-dt .p-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .login-btn-1{
+    width: 145px;
+    height: 39px;
+    background: #3261BD;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 21px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.2s;
+    margin-left: 120px;
+}
+.login-btn-1:hover{
+    background: #E5E5E5;
+    color: #3261BD;
+    border: 1px solid white;
+}
+
+
+/* ---------footer-section---------- */
+.footer-sec{
+    background: black;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+.footer-sec .container .footer{
+    margin-left: 550px;
+}
