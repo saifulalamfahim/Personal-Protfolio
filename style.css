@@ -69,6 +69,9 @@ nav .fa{
     padding: 140px;
 
 }
+.va-img{
+    display: none;
+}
 .header .row .col h1{
     color: white;
     font-size: 42px;
@@ -154,17 +157,14 @@ nav .fa{
     text-align: center;
 }
 .container .about-img .middle-box p{
-    font-style: italic;
     font-size: 33px;
     line-height: 49px;
     color: #FFFFFF;
     margin-top: 20px;
 }
 .container .about-p{
-    font-style: italic;
     font-weight: normal;
     font-size: 22px;
-    
     padding: 45px 140px 45px 140px;
     color: #000000;
 }
@@ -401,9 +401,9 @@ nav .fa{
 
 
 
+/* -----responsive----------- */
 
-
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 992px){
     .nav-link ul li{
         display: block;
         padding: 10px;
@@ -432,5 +432,238 @@ nav .fa{
      .nav-link ul{
          padding: 30px;
      }
+    .logo{
+        margin-left: 40px;
+    }
+    .row{
+        padding: 40px;
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+    .header .row .col .header-img{
+        margin-left: 510px;
+    }
+    .header .row .col p{
+        font-size: 15px;
+    }
+    .container .about-img img{
+        width: 100%;
+    }
+    .container .about-img .middle-box{
+        margin-left: 220px;
+    }
+    .container .about-p{
+        padding:40px;
+    }
+    .container .card-box .info{
+        padding: 40px;
+    }
+    .container .card-box .card{
+        margin-left: 45px;
+    }
+
+     .container .img-box{
+        height: 1004px;
+     }
+     .project-sec .container .img-box .img-box-1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+     }
+     .project-sec .container .img-box .img-box-1 h2{
+       margin-left: -80px;
+       margin-bottom: 20px;
+     }
+     .project-sec .container .img-box .img-box-1 .img-flex{
+        margin-left: 10px;
+     }
+     .project-sec .container .img-box .img-box-1 .img-flex img{
+        margin-left: -10px;
+     }
+     .venish{
+         display: none;
+     }
+     .padd-va{
+         padding-top: 50px;
+     }
+    .detail{
+        margin-left: -140px;
+    }
+    .login-sec .container .login-page .detail img{
+        margin-left: 120px;
+    }
+    .login-sec .container .login-page .detail h1{
+        margin-left: 85px;
+    }
+    .login-sec .container .login-page .detail p{
+        margin-left: 50px;
+    }
+    .login-sec .container .login-page .form{
+        margin-right: -90px;
+    }
+
+    .footer-sec{
+        background: black;
+        color: whitesmoke;
+        padding-top: 50px;
+    }
+    .footer-sec .container .footer{
+        margin-left: 370px;
+    }
+
+}
+
+
+@media (max-width:576px){
+    .row{
+        padding: 0 40px 40px 40px;
+    }
+    .header .row .col h1{
+        font-size: 29px;
+        padding-top: 10px;
+    }
+    .header .row .col .header-img{
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .header .row .col p{
+        font-size: 12px;
+    }
+    .header .row .col p br{
+        display: none;
+    }
+    .va-img{
+       display: block;
+      
+    }
+    .va-img img{
+        height: 200px;
+        margin-left: -60px;
+    }
+    .va-img-1{
+        display: none;
+    }
+
+
+
+    /* -------About Section---- */ 
+
+.container .about h1{
+    padding-top: 15px;
+}
+.container .about-img img{
+    width: 100%;
+    height: 130px;
+    margin-top: 15px;
+}
+.container .about-img .middle-box{
+    width: 250px;
+    margin-top: -117px;
+    margin-left: 55px;
+}
+.container .about-img .middle-box p{
+    font-size: 18px;
+}
+.container .about-p{
+    font-size: 12px;
+    margin-top: -30px;
+    margin-bottom: -25px;
+}
+
+
+
+/* --------Blog----------- */
+.container .blog h1{
+    padding-top: 15px;
+}
+.container .card-box{
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.container .card-box .info{
+    padding: 10px 35px;
+}
+.container .card-box .info h1{
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 10px;
+}
+.container .card-box .info p{
+    font-size: 12px;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+.card-img img{
+    width: 100%;
+    height: 153px;
+}
+.container .card-box .card{
+    width: 100%;
+    height: 100%;
+    margin-left: 35px;
+    flex-direction: column;
+}
+.container .card-box .card .card-1{
+    margin-bottom: 10px;
+}
+
+
+
+/* ------project-sec------ */
+.project-sec{
+    background:#E5E5E5;
+ }
+ .project-sec .container .project h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    padding-top: 45px;
+ }
+
+ .container .img-box{
+    position: relative;
+    height: 994px;
+    background: url(images/pic.jpg), #C4C4C4;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+ }
+ .project-sec .container .img-box .img-box-1{
+    display: flex;
+    align-items: center;
+    width: 1078px;
+    height: 418px;
+    padding: 130px 0px 45px 140px;
+    margin-bottom: 60px;
+ }
+ .project-sec .container .img-box .img-box-1 h2{
+    width: 306px;
+    height: 65px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .project-sec .container .img-box .img-box-1 .img-flex{
+    display: flex;
+    width: 666px;
+    height: 418px;
+    margin-left: 100px;
+ }
+ .project-sec .container .img-box .img-box-1 .img-flex img{
+    width: 316px;
+    height: 194px;
+    box-shadow: 3px 3px 25px 5px #230C0C;
+    /* padding: 30px 30px 30px 30px; */
+    margin:  10px 10px 10px 10px;
+ }
+
+
 }
 
